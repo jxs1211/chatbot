@@ -22,7 +22,7 @@ export default function Home() {
               onClick={() => setIsChatOpen(true)}
               className="px-4 py-2 bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors"
             >
-              开始对话
+              Start Chatting
             </button>
           </div>
         </nav>
@@ -41,9 +41,6 @@ export default function Home() {
               className="px-8 py-4 bg-blue-500 rounded-xl hover:bg-blue-600 transition-all transform hover:scale-105"
             >
               Start Chatting
-            </button>
-            <button className="px-8 py-4 border border-gray-500 rounded-xl hover:border-blue-500 hover:text-blue-400 transition-all transform hover:scale-105">
-              Watch Demo
             </button>
           </div>
         </div>
